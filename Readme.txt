@@ -1,7 +1,7 @@
 Nurikabe raiz
-Autor: Rafael Gomes Moreira
-e-mail: moreirargm@ita.br
-
+Autor: Odair Oliveira de Sa/Rafael Gomes Moreira
+e-mail: odair@ita.br / moreirargm@ita.br
+      
 
 Estrutura do projeto:
 
@@ -12,6 +12,7 @@ main.py :: Responsável pela interação com o usuário.
 |_ game_logic.py :: Lógica do jogo -> Implementa as regras do Nurikabe.
 |_ game_render.py :: Desenha o tabuleiro na tela e a função que pede as jogadas.
 |_ sample_reader.py :: Lê os tabuleiros do tamanho escolhido e escolhe um randomicamente.
+|_ game_genetico7.py : Resolve o jogo usando algoritmo genético
 
 1) Esta versão foi feita para ser usada no terminal, com o objetivo de facilitar a implementação de heurísticas de resolução.
 
@@ -38,4 +39,4 @@ main.py :: Responsável pela interação com o usuário.
 
 6) As amostras de jogos Nurikabe foram extraídas do site www.puzzle-nurikabe.com usando o crawler de peter hung (phung@post.harvard.edu), com tabuleiros de 5x5 (2000 samples), 7x7(2000 samples), 10x10 (2000 samples), 12x12 (2000 samples), 15x15 (1500 samples) e 20x20 (1500 samples) e as amostras encontram-se no diretório sample.
 
-	
+7) O algortimo genético pode ser alterado para executar qualquer um dos tabuleiros 	
